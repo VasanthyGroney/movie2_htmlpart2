@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.movie-grid {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.movie {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 150px;
+    transition: transform 0.2s;
+}
+
+.movie:hover {
+    transform: scale(1.05);
+}
+
+.movie img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.movie-title {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.movie-year {
+    color: #777;
+}
+
+.rating-bar {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    height: 10px;
+    margin: 5px 0;
+    overflow: hidden;
+}
+
+.movie-rating {
+    background-color: #4caf50; /* Green color for the rating */
+    height: 100%;
+    text-align: center;
+    color: white;
+    line-height: 10px; /* Center the text vertically */
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+}
